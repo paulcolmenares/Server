@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./formatos.css">
+</head>
+<body>
+    <button onclick="cargar2()">Listar</button>
+    <section id="datos"></section>
+    <!-- Datos Persona/Socio-->    
+    <br>
+        Cedula: <input type="text" name="carnet" id="carnet" size="10">
+        Nombres: <input type="text" name="nom" id="nom" size="15">
+        Apellidos: <input type="text" name="apellidos" id="apellidos" size="20">
+        <button onclick="postear()" id="grabar">Añadir</button>
+        <input type="hidden" name="id">
+   
+    <!-- Datos Usuario -->
+    <div>
+        Usuario: <input type="text" name="usu" id="usu" size="10" maxlength="10">
+        Clave: <input type="password" name="pass" id="pass" size="10" maxlength="15">
+        <input type="hidden" name="id_per">
+        <input type="button" value="Grabar" onclick="grabarUSR()"><input type="button" value="Cancelar">
+    </div>
+
+        <script src="./scripts.js"></script>
+        <script src="./usuarios.js"></script>
+</body>
+</html>

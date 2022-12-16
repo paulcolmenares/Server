@@ -1,0 +1,15 @@
+p, address {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+p {
+    font-size: smaller;
+    color: darkgoldenrod;
+}
+
+address {
+    font-size: 8px;
+    text-decoration-color: rgb(30, 210, 63);
+}
+
